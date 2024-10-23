@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.clients_inner_content {
+  text-align: center;
+  background: rgb(241, 243, 246);
+  padding: 60px;
+}
+.clients_title {
+  margin-bottom: 50px;
+}
+.clients img {
+  width: 40px;
+  filter: drop-shadow(2px 2px rgb(131, 130, 130));
+}
+
+@media screen and (max-width: 480px) {
+  .clients_inner_content {
+    padding: 50px 15px;
+  }
+}
