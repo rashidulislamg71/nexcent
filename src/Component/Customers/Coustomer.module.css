@@ -1,0 +1,50 @@
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.customer_inner_content{
+    padding: 60px;
+    background: rgb(241, 243, 246);
+}
+
+.customer_img{}
+.customer_img img{
+    width: 282px;
+    margin-top: 14px;
+}
+
+.customer_details{
+    max-width: 800px;
+}
+.customer_details h2{
+   color: rgb(74, 169, 77);
+}
+.customer_details small{
+    color: rgba(128, 128, 128, 0.774);
+}
+.customer_details p{
+    margin: 20px 0px;
+}
+.customer_details .customer_icons{
+    justify-content: start;
+}
+
+.meet_customers_btn{
+    background: transparent;
+    color: rgb(74, 169, 77);
+    font-weight: 600;
+    padding: 0;
+}
+
+.meet_customers_btn:hover{
+    box-shadow: none;
+    transform: translateY(0px);
+    color: rgb(17, 116, 22);
+}
+

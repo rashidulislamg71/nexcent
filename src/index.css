@@ -28,12 +28,34 @@ h1,h2,h3{
 
 p{
   color: var(--pragrahp_color);
+  font-size: 15px;
+}
+
+.inner_content{
+  padding: 60px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width:480px) {
+  .inner_content{
+    padding: 50px 15px;
+  }
 }
 
 button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   border: none;
   border-radius: 2px;
-  padding: 5px 20px;
+  padding: 7px 20px;
   font-size: 17px;
   font-family: inherit;
   cursor: pointer;
@@ -42,8 +64,18 @@ button {
   background: var(--second_main_color);
 }
 
-button:hover {
-  transform: translateY(-4px);
+button span{
+  display: flex;
+  transition: all 0.4s ease;
+}
+
+button:hover span{
+  transform: translateX(5px);
+}
+
+button:hover{
+  transform: translateY(-3px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 button:active {

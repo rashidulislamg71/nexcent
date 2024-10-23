@@ -1,6 +1,6 @@
 import styles from "./Hero.module.css";
 import hero_img from "../../assets/images/icons/Illustration.png";
-
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
           <p>
             Where to grow your business as a photographer: site or social media?
           </p>
-          <button className={styles.btn}>Register</button>
+          <button className={styles.btn}>Register Now <span><FaArrowRightLong /></span></button>
         </div>
         <div className={styles.hero_img}>
           <img src={hero_img} alt="Hero Illustration" />

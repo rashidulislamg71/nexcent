@@ -2,6 +2,8 @@
 import styles from "./Unlock.module.css";
 import frameImage from "../../assets/images/icons/Frame.png";
 
+import { FaArrowRightLong } from "react-icons/fa6";
+
 const Unlock = () => {
   return (
     <section className={styles.unlock_sections}>
@@ -13,7 +15,7 @@ const Unlock = () => {
         </div>
         <div className={styles.unlock_text}>
           <h1>
-            The unseen of spending three years at Pixelgrad
+            The unseen of spending three years at Pixelgrade
           </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
@@ -24,7 +26,7 @@ const Unlock = () => {
             delectus voluptas explicabo minus minima blanditiis dicta!
           </p>
           <button className={styles.btn}>
-            Learn More <i className="fa-solid fa-arrow-right"></i>
+            Learn More <span><FaArrowRightLong /></span>
           </button>
         </div>
       </div>
