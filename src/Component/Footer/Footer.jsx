@@ -9,7 +9,7 @@ import logo from "../../assets/images/icons/Nexcent_Logo.png";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer_section}>
+    <footer id="footer_section" className={styles.footer_section}>
       <div className="inner_content">
         <div className={`${styles.flex} ${styles.footer_top}`}>
           <div className={styles.footer_about}>

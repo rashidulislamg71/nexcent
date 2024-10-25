@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <section className={styles.hero_section}>
+    <section id="hero_section" className={styles.hero_section}>
       <div className={`${styles.hero_inner_content} ${styles.flex}`}>
         <div className={styles.hero_text}>
           <h1>

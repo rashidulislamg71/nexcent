@@ -7,7 +7,7 @@ import icon3 from "../../assets/images/icons/Icon2.png";
 import styles from "./Commounity.module.css";
 const Community = () => {
   return (
-    <section className={styles.manage_community_section}>
+    <section id="community_section" className={styles.manage_community_section}>
       <div
         className={`${styles.inner_content} ${styles.manage_community_inner_content}`}
       >

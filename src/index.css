@@ -55,8 +55,9 @@ button {
   gap: 6px;
   border: none;
   border-radius: 2px;
-  padding: 5px 15px;
+  padding: 6px 15px;
   font-family: inherit;
+  font-size: 17px;
   cursor: pointer;
   transition: all 0.4s ease;
   color: var(--btn_color);

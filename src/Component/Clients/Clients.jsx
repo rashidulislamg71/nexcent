@@ -10,7 +10,7 @@ import styles from "./Clients.module.css";
 
 const Clients = () => {
     return (
-        <section className={styles.clients_section} id={styles.clients_section}>
+        <section className={styles.clients_section} id="clients_section">
         <div className={`${styles.clients_inner_content}`}>
           <div className={styles.clients_title}>
             <h1>Our Clients</h1>

@@ -1,7 +1,5 @@
 
 
-/* header styles start  */
-
 .flex{
     display: flex;
     justify-content: space-between;
@@ -15,11 +13,12 @@
   .header_inner_content {
     background: #ffff;
     padding: 20px 60px;
-    box-shadow: 2px 2px 10px gray;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 200;
   }
   .logo {
     cursor: pointer;
@@ -62,8 +61,45 @@
     font-weight: bold;
     border-bottom: 2px solid rgb(74, 169, 77);
   }
+
+  .menu_toggleBtn{
+    font-size: 20px;
+    padding: 3px 5px;
+    color: #ffff;
+    display: none;
+  }
   
 
-  @media screen  and (max-width:480px){
-    
+  @media screen  and (max-width:980px){
+    .header_inner_content {
+      padding: 20px 30px;
+    }
+    .menu{
+      position: fixed;
+      top: 68px;
+      left: 0;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: 0px;
+      background: #fff;
+      width: 100%;
+      padding: 20px;
+      transform: translateX(-100%);
+      transition: transform .5s;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    }
+
+    .menu a{
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+      width: 100%;
+      padding: 15px;
+    }
+
+    .nav_responsive{
+      transform: none;
+    }
+      .menu_toggleBtn{
+        display: flex;
+      }
   }

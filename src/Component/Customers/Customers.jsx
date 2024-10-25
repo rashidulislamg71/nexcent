@@ -12,7 +12,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Customers = () => {
   return (
-    <section id={styles.customers_section}>
+    <section id='customers_section'>
       <div className="inner_content flex">
         <div className={`${styles.customer_img} `}>
             <img src={customer_img} alt="Customer Image" />
