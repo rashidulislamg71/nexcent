@@ -8,6 +8,9 @@ import Unlock from "../../Component/Unlock/Unlock";
 import Achievements from "../../Component/Achievements/Achievements";
 import Calender from "../../Component/Calender/Calender";
 import Customers from "../../Component/Customers/Customers";
+import Blogs from "../../Component/Blogs/Blogs";
+import Subscribe from "../../Component/Subscribe/Subscribe";
+import Footer from "../../Component/Footer/Footer";
 const Home = () => {
     return (
         <div>
@@ -19,6 +22,9 @@ const Home = () => {
             <Achievements />
             <Calender />
             <Customers />
+            <Blogs />
+            <Subscribe />
+            <Footer />
         </div>
     );
 };
