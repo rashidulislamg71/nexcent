@@ -13,7 +13,10 @@ const Footer = () => {
       <div className="inner_content">
         <div className={`${styles.flex} ${styles.footer_top}`}>
           <div className={styles.footer_about}>
-            <div className={` ${styles.flex} ${styles.footer_logo}`}>
+            <div
+              data-aos="fade-down"
+              className={` ${styles.flex} ${styles.footer_logo}`}
+            >
               <img src={logo} alt="Logo" />
               <span>Nexcent</span>
             </div>
@@ -54,27 +57,27 @@ const Footer = () => {
               Phone: <a href="tel:+1234567890">+1 234 567 890</a>
             </p>
             <div className={`${styles.flex} ${styles.social_icons}`}>
-              <a href="#">
+              <a data-aos="fade-left" data-aos-duration="1500" href="#">
                 <span>
                   <MdOutlineFacebook />
                 </span>
               </a>
-              <a href="#">
+              <a data-aos="fade-left" data-aos-duration="1300" href="#">
                 <span>
                   <AiFillTwitterCircle />
                 </span>
               </a>
-              <a href="#">
+              <a data-aos="fade-left" data-aos-duration="1000" href="#">
                 <span>
                   <FaLinkedin />
                 </span>
               </a>
-              <a href="#">
+              <a data-aos="fade-left" data-aos-duration="900" href="#">
                 <span>
                   <RiYoutubeFill />
                 </span>
               </a>
-              <a href="#">
+              <a data-aos="fade-left" data-aos-duration="700" href="#">
                 <span>
                   <FaInstagramSquare />
                 </span>

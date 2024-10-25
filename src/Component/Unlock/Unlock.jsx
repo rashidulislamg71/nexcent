@@ -11,7 +11,7 @@ const Unlock = () => {
         className={`${styles.unlock_inner_content} ${styles.inner_content} ${styles.flex}`}
       >
         <div className={styles.unlock_img}>
-          <img src={frameImage} alt="Unlock Illustration" />
+          <img data-aos="zoom-in" src={frameImage} alt="Unlock Illustration" />
         </div>
         <div className={styles.unlock_text}>
           <h1>
@@ -25,7 +25,7 @@ const Unlock = () => {
             eum. Rerum commodi ducimus labore, iure quasi nulla, repellendus
             delectus voluptas explicabo minus minima blanditiis dicta!
           </p>
-          <button className={styles.btn}>
+          <button data-aos="fade-left" className={styles.btn}>
             Learn More <span><FaArrowRightLong /></span>
           </button>
         </div>

@@ -7,12 +7,12 @@ const Subscribe = () => {
         <div className={styles.subscribe_inner_content}>
 
        
-        <h1>Subscribe Now to get blog alerts!</h1>
-        <p>
+        <h1 data-aos="fade-down">Subscribe Now to get blog alerts!</h1>
+        <p data-aos="fade-down">
           Stay updated with our latest blog posts, insights, and trends. Don’t
           miss out!
         </p>
-        <form className={styles.subscribe_form} action="#" method="post">
+        <form data-aos="fade-up" className={styles.subscribe_form} action="#" method="post">
           <input
             type="email"
             name="email"

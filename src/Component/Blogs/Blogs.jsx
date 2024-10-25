@@ -52,8 +52,8 @@ const Blogs = () => {
 
        
           <div className={styles.blog_header_title}>
-            <h1>Recently Published Blogs</h1>
-            <p>
+            <h1 data-aos="fade-down" data-aos-duration="1400">Recently Published Blogs</h1>
+            <p data-aos="fade-down">
               The Nextcent blog is the best place to read about the latest
               membership insights, trends, and more. See who's joining the
               community, read about how our community is increasing their
@@ -64,7 +64,7 @@ const Blogs = () => {
             {blogs.map((blog) => (
               <div key={blog.id} className={styles.single_blog}>
                 <div className={styles.blog_img}>
-                  <img src={blog.img} alt={`Blog ${blog.id}`} />
+                  <img data-aos="zoom-in" src={blog.img} alt={`Blog ${blog.id}`} />
                 </div>
                 <div className={styles.blog_title}>
                   <h4>{blog.title}</h4>
@@ -75,7 +75,7 @@ const Blogs = () => {
               </div>
             ))}
           </div>
-          <button className={`${styles.btn} ${styles.more_blogs_btn}`}>
+          <button data-aos="fade-up" className={`${styles.btn} ${styles.more_blogs_btn}`}>
             Read More Blogs <span><FaArrowRightLong /></span>
           </button>
           

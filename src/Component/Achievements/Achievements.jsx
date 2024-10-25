@@ -11,15 +11,15 @@ const Achievements = () => {
     <section id={styles.achievement_section}>
       <div className={`${styles.flex} ${styles.achievement_inner_content}`}>
         <div className={styles.achievement_title}>
-          <h1>Helpin a local</h1>
-          <h1 className={styles.bottom_text}>business reinvent itself.</h1>
+          <h1 data-aos="fade-right">Helpin a local</h1>
+          <h1 data-aos="fade-up" className={styles.bottom_text}>business reinvent itself.</h1>
           <p>We reached here with out hard work and dedication.</p>
         </div>
 
         <div className={`${styles.flex} ${styles.achievement_details}`}>
           <div className={`${styles.flex} ${styles.inner_details}`}>
             <div className={`${styles.flex} ${styles.single_details}`}>
-              <span className={styles.members}>
+              <span  data-aos="zoom-in" className={styles.members}>
                 <FaUsers />
               </span>
               <div>
@@ -28,7 +28,7 @@ const Achievements = () => {
               </div>
             </div>
             <div className={`${styles.flex} ${styles.single_details}`}>
-              <span>
+              <span  data-aos="zoom-in">
                 <TbHandClick />
               </span>
               <div>
@@ -39,7 +39,7 @@ const Achievements = () => {
           </div>
           <div className={`${styles.flex} ${styles.inner_details}`}>
             <div className={`${styles.flex} ${styles.single_details}`}>
-              <span>
+              <span  data-aos="zoom-in">
                 <FaHandshake />
               </span>
               <div>
@@ -48,7 +48,7 @@ const Achievements = () => {
               </div>
             </div>
             <div className={`${styles.flex} ${styles.single_details}`}>
-              <span>
+              <span  data-aos="zoom-in">
                 <MdPayment />
               </span>
               <div>

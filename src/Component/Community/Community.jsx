@@ -1,5 +1,3 @@
-
-
 import icon1 from "../../assets/images/icons/Icon.png";
 import icon2 from "../../assets/images/icons/Icon1.png";
 import icon3 from "../../assets/images/icons/Icon2.png";
@@ -18,8 +16,11 @@ const Community = () => {
           <p>Who is Nextcent suitable for?</p>
         </div>
 
-        <div className={`${styles.community_cards} ${styles.flex}`}>
-          <div className={styles.single_card}>
+        <div
+        
+          className={`${styles.community_cards} ${styles.flex}`}
+        >
+          <div    data-aos="fade-right" className={styles.single_card}>
             <img src={icon1} alt="Membership Organizations" />
             <h3>
               Membership <br /> Organizations
@@ -30,7 +31,7 @@ const Community = () => {
             </p>
           </div>
 
-          <div className={styles.single_card}>
+          <div data-aos="fade-down" className={styles.single_card}>
             <img src={icon2} alt="National Associations" />
             <h3>
               National <br /> Associations
@@ -41,7 +42,7 @@ const Community = () => {
             </p>
           </div>
 
-          <div className={styles.single_card}>
+          <div data-aos="fade-left" className={styles.single_card}>
             <img src={icon3} alt="Clubs and Groups" />
             <h3>
               Clubs and <br /> Groups

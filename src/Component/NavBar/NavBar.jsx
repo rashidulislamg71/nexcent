@@ -18,6 +18,7 @@ const NavBar = () => {
 
   const closeMenu = () => {
     setShowmenu(false);
+    navRef.current.classList.remove(styles.nav_responsive);
   };
 
   return (
@@ -25,12 +26,14 @@ const NavBar = () => {
       <div className={` ${styles.flex} ${styles.header_inner_content}`}>
         <div className={`${styles.flex} ${styles.logo}`}>
           <Link
+          onClick={closeMenu}
             activeClass="active"
             to="hero_section"
             spy={true}
             smooth={true}
             offset={-100}
             duration={400}
+
           >
             {" "}
             <img src={logo} alt="Logo" /> <span>Nexcent</span>
@@ -39,6 +42,7 @@ const NavBar = () => {
 
         <nav ref={navRef} className={`${styles.flex} ${styles.menu}`}>
           <Link
+             onClick={closeMenu}
             activeClass="active"
             to="hero_section"
             spy={true}
@@ -50,6 +54,7 @@ const NavBar = () => {
           </Link>
 
           <Link
+             onClick={closeMenu}
             activeClass="active"
             to="customers_section"
             spy={true}
@@ -61,6 +66,7 @@ const NavBar = () => {
           </Link>
 
           <Link
+             onClick={closeMenu}
             activeClass="active"
             to="community_section"
             spy={true}
@@ -72,6 +78,7 @@ const NavBar = () => {
           </Link>
 
           <Link
+             onClick={closeMenu}
             activeClass="active"
             to="blog_section"
             spy={true}
@@ -83,6 +90,7 @@ const NavBar = () => {
           </Link>
 
           <Link
+             onClick={closeMenu}
             activeClass="active"
             to="footer_section"
             spy={true}
@@ -94,6 +102,7 @@ const NavBar = () => {
           </Link>
 
           <Link
+             onClick={closeMenu}
             activeClass="active"
             to="registration_section"
             spy={true}
